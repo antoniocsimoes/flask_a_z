@@ -25,10 +25,8 @@ def create_app(config_name):
     def index():
         result = User.query.first()
         print(result.username)
-
-        print(type(result))
-        
+        print(type(result))       
        
-        return 'Hello world! sss'
+        return 'Hello world!'
 
     return app
