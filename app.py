@@ -26,7 +26,7 @@ def create_app(config_name):
         result = User.query.first()
         print(result.username)
         print(result.email)
-        print(type(result))
+        print(type(result.email))
         return 'Hello world! sss'
 
     return app
