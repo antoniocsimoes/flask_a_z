@@ -1,0 +1,15 @@
+não esquecer de set o FLASK_ENV
+set FLASK_ENV=development (windows)
+export FLASK_ENV=development (linux)
+
+utilizando o migrate
+
+após a instalação e configuração, rodar os seguintes comandos:
+
+python model.py db init (somente uma vez - serve para criar a pasta do migrate)
+
+python model.py db migrate
+
+python model.py db upgrade
+
+* sempre rodar estes dois últimos comandos quando houver uma modificação na classe.

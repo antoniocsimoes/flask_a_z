@@ -1,0 +1,10 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+*~
+__pycache__/
+*.py[cod]
+*.pyc
+*$py.class
+XDG_CACHE_HOME/
+venv/
